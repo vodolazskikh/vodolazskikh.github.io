@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3>Форма</h3>
+      <div class="form">
+        <img src="./src/1.jpeg" alt="аватар" />
+        <input type="text" placeholder="Имя" id="firstName" />
+        <input type="text" placeholder="Фамилия" id="lastName" />
+        <label for="sex">Пол</label>
+        <div>
+          <label for="male">М</label>
+          <input type="radio" name="sex" id="male" value="male" />
+          <label for="female">Ж</label
+          ><input type="radio" name="sex" id="female" value="female" />
+        </div>
+        <input type="password" placeholder="Пароль" id="password" />
+        <button onclick="submit()">Отправить</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
