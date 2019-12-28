@@ -4,26 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Форма обратной связи</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <h3>Форма</h3>
-      <div class="form">
-        <img src="./src/1.jpeg" alt="аватар" />
-        <input type="text" placeholder="Имя" id="firstName" />
-        <input type="text" placeholder="Фамилия" id="lastName" />
-        <label for="sex">Пол</label>
-        <div>
-          <label for="male">М</label>
-          <input type="radio" name="sex" id="male" value="male" />
-          <label for="female">Ж</label
-          ><input type="radio" name="sex" id="female" value="female" />
-        </div>
-        <input type="password" placeholder="Пароль" id="password" />
-        <button onclick="submit()">Отправить</button>
-      </div>
+      <img src="./public/placeholder.jpg" id="logo" />
+      <h3>Загрузите фотку котки</h3>
+      <input type="file" name="pic" id="imgLoader" />
+      <img
+        id="preloader"
+        src="./public/preloader.gif"
+        width="130px"
+        height="100px"
+      />
     </div>
     <script src="./script.js"></script>
   </body>
