@@ -20,6 +20,7 @@
                                             o888o
      ###################################################################### -->
     <script defer src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    <script defer src="./js/lazy.js"></script>
     <script defer src="./js/index.js"></script>
     <script defer src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
     <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
@@ -99,7 +100,7 @@
 
     </template><template class="template-description">
         <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
-            <div class="critical-cam" onload="initCriticalCam()" touch-action="none">
+            <div class="critical-cam lazy" onload="initCriticalCam()" touch-action="none">
 
             </div>
 
@@ -431,7 +432,7 @@
                         <p class="card-time">16:17, Сегодня</p>
                     </div>
                     <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
-                        <div class="critical-cam" onload="initCriticalCam()" touch-action="none" style="background-position: 0px 0px; background-size: 100%; filter: brightness(100%);">
+                        <div class="critical-cam lazy" onload="initCriticalCam()" touch-action="none" style="background-position: 0px 0px; background-size: 100%; filter: brightness(100%);">
 
                         </div>
 
