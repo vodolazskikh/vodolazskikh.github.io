@@ -737,18 +737,6 @@ html {
     padding: 0 20px 28px 20px
 }
 
-.critical-cam.lazy {
-    height: 424px;
-    width: 100%;
-    margin-top: 40px;
-    display: block;
-    background-image: none;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: 0 0;
-    touch-action: none
-}
-
 .critical-cam {
     height: 424px;
     width: 100%;
