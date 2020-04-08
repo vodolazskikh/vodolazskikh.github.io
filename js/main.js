@@ -7,12 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
     '<button class="button">Нет</button>';
 });
 
-$(document).ready(function () {
-  var carousel = $("#carousel");
-
-  carousel.owlCarousel();
-});
-
 document.addEventListener(
   "DOMContentLoaded",
   function () {
