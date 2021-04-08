@@ -1,0 +1,14 @@
+.title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.track {
+  max-width: 500px;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
